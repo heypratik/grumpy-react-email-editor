@@ -1,0 +1,164 @@
+[
+  {
+    "name": "Column",
+    "key": "column",
+    "type": "full",
+    "styles": {
+      "key": "column",
+      "desktop": {
+        "backgroundColor": "transparent",
+        "paddingTop": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "contentBackground": "#fff"
+      },
+      "mobile": {}
+    },
+    "children": [
+      {
+        "name": "Content",
+        "key": "content",
+        "width": "100%",
+        "styles": {
+          "key": "column",
+          "desktop": {
+            "backgroundColor": "transparent",
+            "paddingTop": 0,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "contentBackground": "transparent"
+          },
+          "mobile": {}
+        },
+        "children": [
+          {
+            "name": "Heading",
+            "key": "heading",
+            "text": "<span style=\"font-size: 37px; text-align: center;\">Grumpy React Email Editor</span>",
+            "type": "h1",
+            "styles": {
+              "desktop": {
+                "fontSize": 22,
+                "lineHeight": "140%",
+                "fontFamily": "sans-serif",
+                "paddingTop": 40,
+                "paddingBottom": 12,
+                "paddingLeft": 12,
+                "paddingRight": 12,
+                "textAlign": "center",
+                "fontWeight": "bold"
+              },
+              "mobile": {}
+            },
+            "styleConfig": {
+              "className": "heading-0",
+              "desktop": "font-size:22px;line-height:140%;font-family:sans-serif;padding-top:40px;padding-bottom:12px;padding-left:12px;padding-right:12px;text-align:center;font-weight:bold;",
+              "mobile": ""
+            }
+          },
+          {
+            "name": "Image",
+            "key": "image",
+            "src": "https://img.freepik.com/free-photo/portrait-frowning-upset-little-boy-looking-camera_171337-16381.jpg",
+            "alt": "Image",
+            "type": "link",
+            "linkURL": "",
+            "contentStyles": {
+              "desktop": {
+                "paddingTop": 12,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "textAlign": "center"
+              },
+              "mobile": {}
+            },
+            "styles": {
+              "desktop": {
+                "width": "auto"
+              },
+              "mobile": {}
+            },
+            "styleConfig": {
+              "className": "image-1",
+              "desktop": "width:auto;",
+              "mobile": ""
+            },
+            "contentStyleConfig": {
+              "className": "image-content-1",
+              "desktop": "padding-top:12px;text-align:center;",
+              "mobile": ""
+            },
+            "itemClass": "https://img.freepik.com/free-photo/portrait-frowning-upset-little-boy-looking-camera_171337-16381.jpg"
+          },
+          {
+            "name": "Button",
+            "key": "button",
+            "text": "<b>STAR US ON GITHUB</b>",
+            "type": "link",
+            "linkURL": "",
+            "contentStyles": {
+              "desktop": {
+                "textAlign": "center",
+                "paddingTop": 20,
+                "paddingBottom": 20,
+                "paddingLeft": 20,
+                "paddingRight": 20
+              },
+              "mobile": {}
+            },
+            "styles": {
+              "desktop": {
+                "width": "auto",
+                "fontSize": 14,
+                "lineHeight": "140%",
+                "borderRadius": 4,
+                "fontFamily": "sans-serif",
+                "paddingTop": 15,
+                "paddingBottom": 15,
+                "paddingLeft": 25,
+                "paddingRight": 25,
+                "backgroundColor": "#398ef6",
+                "color": "#fff",
+                "display": "inline-block"
+              },
+              "mobile": {}
+            },
+            "styleConfig": {
+              "className": "button-2",
+              "desktop": "width:auto;font-size:14px;line-height:140%;border-radius:4px;font-family:sans-serif;padding-top:15px;padding-bottom:15px;padding-left:25px;padding-right:25px;background-color:#398ef6;color:#fff;display:inline-block;",
+              "mobile": ""
+            },
+            "contentStyleConfig": {
+              "className": "button-content-2",
+              "desktop": "text-align:center;padding-top:20px;padding-bottom:20px;padding-left:20px;padding-right:20px;",
+              "mobile": ""
+            }
+          }
+        ],
+        "styleConfig": {
+          "className": "content-0",
+          "desktop": "background-color:transparent;",
+          "mobile": ""
+        },
+        "contentStyleConfig": {
+          "className": "content-content-0",
+          "desktop": "background-color:transparent;",
+          "mobile": ""
+        }
+      }
+    ],
+    "styleConfig": {
+      "className": "column-0",
+      "desktop": "background-color:transparent;",
+      "mobile": ""
+    },
+    "contentStyleConfig": {
+      "className": "column-content-0",
+      "desktop": "background-color:#fff;",
+      "mobile": ""
+    }
+  }
+]

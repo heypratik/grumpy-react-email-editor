@@ -1,0 +1,88 @@
+@import '~antd/dist/antd.compact.css';
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  height: calc(100vh - 60px);
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.dashboard-content {
+  flex: 1;
+  overflow: auto;
+}
+
+.dashboard-header {
+  padding: 8px 12px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #f0f0f0;
+
+}
+
+.dashboard-header-title {
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.dashboard-header-subtitle {
+  padding: 8px 16px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 5px;
+  background-color: var(--main-brand-color);
+  transition: all 0.3s;
+  border: none;
+  cursor: pointer;
+}
+
+.dashboard-header-subtitle:hover {
+  background-color: var(--main-brand-color);
+}
+
+.dashboard-header-feature {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.dashboard-header-language {
+  color: #fff;
+  font-size: 14px;
+}
+
+.dashboard-header-language span {
+  cursor: pointer;
+}
+
+.dashboard-header-language span:hover {
+  text-decoration: underline;
+}
+
+/*Create Global Brand Color*/
